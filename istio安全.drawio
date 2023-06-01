@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-01T03:29:04.455Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="DRs-kvka7l2yjl8iKg-5" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-01T03:32:53.108Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="5JrlMzNucBTKb1Kz8omi" version="21.2.9" type="github">
   <diagram name="第 1 页" id="5hI7nDVe26Lt9nUhR6cd">
     <mxGraphModel dx="2261" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,6 +45,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eOjaF7TuqYCyPpBF7IEi-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eOjaF7TuqYCyPpBF7IEi-30" target="eOjaF7TuqYCyPpBF7IEi-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eOjaF7TuqYCyPpBF7IEi-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eOjaF7TuqYCyPpBF7IEi-30" target="eOjaF7TuqYCyPpBF7IEi-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object placeholders="1" c4Name="Kube-ApiServer" c4Type="Component" c4Technology="" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="eOjaF7TuqYCyPpBF7IEi-30">
@@ -143,6 +146,23 @@
         </mxCell>
         <mxCell id="eOjaF7TuqYCyPpBF7IEi-65" value="&lt;font size=&quot;1&quot;&gt;service account token&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="560" y="210" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eOjaF7TuqYCyPpBF7IEi-67" value="&lt;font size=&quot;1&quot;&gt;mount configmap&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="690" y="230" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eOjaF7TuqYCyPpBF7IEi-74" value="" style="shape=table;startSize=44;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#4D4D4D;fontStyle=1;spacingLeft=6;spacing=0;resizable=0;" vertex="1" parent="1">
+          <mxGeometry x="326.15" y="85" width="110" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="eOjaF7TuqYCyPpBF7IEi-75" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="eOjaF7TuqYCyPpBF7IEi-74">
+          <mxGeometry y="44" width="110" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="eOjaF7TuqYCyPpBF7IEi-76" value="service account" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=#3162AF;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;fontColor=#FFFFFF;gradientColor=none;spacingLeft=10;spacingRight=4;" vertex="1" parent="eOjaF7TuqYCyPpBF7IEi-75">
+          <mxGeometry width="110" height="22" as="geometry">
+            <mxRectangle width="110" height="22" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eOjaF7TuqYCyPpBF7IEi-80" value="&lt;font size=&quot;1&quot;&gt;service account token&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="620" y="110" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
